@@ -14,11 +14,10 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "The Cozy Corner",
   description: "A cozy online bookstore with hand-picked recommendations",
+  verification: {
+    google: "tZl0MMhRGwVqWCixsy69RHLuzBtt5EeFJULH3D2oSic",
+  },
 };
-
-<head>
-  <meta name="google-site-verification" content="tZl0MMhRGwVqWCixsy69RHLuzBtt5EeFJULH3D2oSic" />
-</head>
 
 export default function RootLayout({ children }) {
   return (
